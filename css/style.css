@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.contain{
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: auto;
+    background-color: aqua;
+
+
+}
+.contain>h1,p{
+    text-align: center;
+    
+}
+
+#title{
+    padding: 40px 0px;
+}
+
+.cell{
+    width: calc(100% / 3 - 2rem);
+    height: 85px;
+    margin: 1rem;
+    background-color: blue;
+    float: left;
+    
+}
