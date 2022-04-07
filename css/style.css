@@ -55,8 +55,10 @@ body{
 
 .card>.container-info{
     float: left;
-    padding: 10px 0px 10px 10px;
-    line-height:20px
+    width: calc(100% - 85px);
+    padding: 9px 0px 0px 5px;
+    height:calc(100% - 4px);
+
     
 }
 
@@ -77,10 +79,15 @@ body{
 
 .container-info .Email{
     color: #1B8EC0;
-    font-size: 13px;
+    font-size: 13px;;
 
 }
 
 .contain.second-row{
     margin-top: 30px;
+}
+
+.Info{
+    line-height: 16px;
+    padding: 2px
 }
